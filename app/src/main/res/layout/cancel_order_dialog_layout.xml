@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/dialog_bg"
+        android:padding="20dp">
+
+        <RadioGroup
+            android:id="@+id/cancelOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/checkLL1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:clickable="false"
+
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="I have another order."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/checkLL2"
+
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:clickable="false"
+
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Out of stock."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/checkLL3"
+
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:clickable="false"
+
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Struck in the traffic."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/checkLL4"
+
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:clickable="false"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Wont be able to make it on time."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/confirmTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/cancelOption"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dialog_yes_btn_bg"
+            android:gravity="center"
+            android:text="Reject Booking"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/cancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/confirmTxt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_n0_btn_bg"
+            android:gravity="center"
+            android:text="Don\'t Reject"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circle_bg">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_new"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

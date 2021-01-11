@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/login_bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Login"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+        <FrameLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+
+                            android:src="@drawable/logo_new"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/mainTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Worker"
+                            android:textColor="@color/blk"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/rtTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:text="Worker"
+                            android:textColor="@color/trans"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/leftTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="20dp"
+                            android:text="Worker"
+                            android:textColor="@color/trans"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/drpIv"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/arrow_b" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:text="Enter your Mobile no to get login"
+                        android:textColor="@color/lighBlk"
+                        android:textSize="13sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/round_rect_grey_border"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="15dp"
+                            android:tint="@color/white"
+                            android:background="@color/colorPrimaryDark"
+                            android:src="@drawable/ic_phone_call" />
+                        <EditText
+                            android:id="@+id/mobEt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@null"
+                            android:maxLength="10"
+                            android:layout_marginLeft="10dp"
+                            android:inputType="number"
+                            android:hint="Enter Mobile No."
+                            android:maxLines="1" />
+                    </LinearLayout>
+
+
+                    <View
+                        android:id="@+id/vw"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="30dp"
+                        android:visibility="gone"
+                        android:background="@color/brwn" />
+
+
+                    <TextView
+                        android:id="@+id/sendotpTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/oval_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="45dp"
+                        android:paddingRight="45dp"
+                        android:paddingTop="10dp"
+                        android:text="Send OTP"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

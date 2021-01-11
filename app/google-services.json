@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1073819448677",
+    "firebase_url": "https://bestpricedeliveryprovider.firebaseio.com",
+    "project_id": "bestpricedeliveryprovider",
+    "storage_bucket": "bestpricedeliveryprovider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073819448677:android:947ec4c0dd58abfaf09d8c",
+        "android_client_info": {
+          "package_name": "app.provider.bestpricedelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073819448677-kg0ikckd2ebrd4377638cmencieepbic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.provider.bestpricedelivery",
+            "certificate_hash": "92e64a286eb17045cfe52fb11c996a5e75ff18ba"
+          }
+        },
+        {
+          "client_id": "1073819448677-7821tb6c7ijsrkrd5hotv12glabfal07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_qxf5qk6EyvxIMVyockiKMfEqBSgIoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073819448677-7821tb6c7ijsrkrd5hotv12glabfal07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

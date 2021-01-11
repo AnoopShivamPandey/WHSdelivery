@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WHS Delivery</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash_sone">SplashSone</string>
+    <string name="otpstring">Enter password you received when your \naccount was created</string>
+    <string name="rupee">\u20B9 </string>
+</resources>
